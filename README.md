@@ -1,5 +1,5 @@
-# iamport-inicis-graddle
-KG이니시스 결제연동을 위한 아임포트 안드로이드 샘플프로젝트입니다( Graddle )
+# iamport-inicis-gradle
+KG이니시스 결제연동을 위한 아임포트 안드로이드 샘플프로젝트입니다( Gradle )
 
 
 ## 주의사항  
@@ -13,7 +13,7 @@ if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 	settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
 }
 ```
-참고 : [https://github.com/iamport/iamport-inicis-graddle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L32](https://github.com/iamport/iamport-inicis-graddle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L32)
+참고 : [https://github.com/iamport/iamport-inicis-gradle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L32](https://github.com/iamport/iamport-inicis-gradle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L32)
 
 ### 2. Cookie 허용  
 
@@ -27,4 +27,4 @@ if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 }
 ```
 
-참고 : [https://github.com/iamport/iamport-inicis-graddle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L31-L35](https://github.com/iamport/iamport-inicis-graddle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L31-L35)
+참고 : [https://github.com/iamport/iamport-inicis-gradle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L31-L35](https://github.com/iamport/iamport-inicis-gradle/blob/master/app/src/main/java/com/siot/inicissample/MainActivity.java#L31-L35)
