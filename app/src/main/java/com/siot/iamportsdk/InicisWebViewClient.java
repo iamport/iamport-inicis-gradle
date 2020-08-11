@@ -65,7 +65,20 @@ public class InicisWebViewClient extends WebViewClient {
 		} else if ( PaymentScheme.BANKPAY.equalsIgnoreCase(scheme) ) {
 			activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + PaymentScheme.PACKAGE_BANKPAY)));
 			return true;
+		} else if ( PaymentScheme.KB_BANKPAY.equalsIgnoreCase(scheme) ) {
+			activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + PaymentScheme.PACKAGE_KB_BANKPAY)));
+			return true;
+		} else if ( PaymentScheme.NH_BANKPAY.equalsIgnoreCase(scheme) ) {
+			activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + PaymentScheme.PACKAGE_NH_BANKPAY)));
+			return true;
+		} else if ( PaymentScheme.MG_BANKPAY.equalsIgnoreCase(scheme) ) {
+			activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + PaymentScheme.PACKAGE_MG_BANKPAY)));
+			return true;
+		} else if ( PaymentScheme.KN_BANKPAY.equalsIgnoreCase(scheme) ) {
+			activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + PaymentScheme.PACKAGE_KN_BANKPAY)));
+			return true;
 		}
+
 		
 		return false;
 	}
